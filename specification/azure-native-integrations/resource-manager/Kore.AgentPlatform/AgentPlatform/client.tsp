@@ -82,3 +82,17 @@ using Kore.AgentPlatform;
   "KoreAIArtemisResourceProvisioningState",
   "csharp"
 );
+
+@@clientName(Product.aiforservice, "AIForService", "go");
+@@clientName(Product.aiforwork, "AIForWork", "go");
+@@clientName(LiftrBase.SingleSignOnType.Saml, "SAML", "go");
+@@clientName(
+  LiftrBase.MarketplaceDetails.saasResourceId,
+  "SaaSResourceId",
+  "go"
+);
+@@clientName(LiftrBase.UserDetails.upn, "UPN", "go");
+@@clientName(DiscoveredWorkspace.armResourceId, "ARMResourceId", "go");
+@@clientName(ActivateSaaSParameterRequest.saasGuid, "SaaSGuid", "go");
+@@clientName(SaaSResourceDetailsResponse.saasId, "SaaSId", "go");
+@@clientName(WorkspaceMarketplaceDetails.mpId, "MPId", "go");
